@@ -1,14 +1,14 @@
 #include <stdio.h>
 
-int main() {
-    int a, b, c, sum;
-    printf("Nhap so thu nhat= ");
-    scanf("%d", &a);
-    printf("Nhap so thu hai= ");
-    scanf("%d", &b);
-    printf("Nhap so thu ba= ");
-    scanf("%d", &c);
-    sum = a + b + c;
-    printf("Tong ba so = %d", sum);
-    return 0;
-}
+//int main() {
+//    int a, b, c, sum;
+//    printf("First Number= ");
+//    scanf("%d", &a);
+//    printf("Second Number= ");
+//    scanf("%d", &b);
+//    printf("Third Number= ");
+//    scanf("%d", &c);
+//    sum = a + b + c;
+//    printf("Sum of 3 Number = %d", sum);
+//    return 0;
+//}
