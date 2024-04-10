@@ -1,4 +1,4 @@
-#include <stdio.h>
+/*#include <stdio.h>
 
 int main() {
     float base = 12000, DA, HRA = 150, TA = 120, Others = 450, PF, IT, Tax, sum;
@@ -19,4 +19,4 @@ int main() {
     printf("Tax = %.2f + %.2f = $%.2f\n", PF, IT,-Tax);
     printf("Salary Total = $%.2f", sum-Tax);
     return 0;
-}
+}*/
