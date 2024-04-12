@@ -2,13 +2,14 @@
 // int main()
 // {
 //     //INPUT
-//     int a,b;
+//     int a,b,total;
 //     printf("INPUT a,b");
 //     scanf("%d,%d",&a,&b);
 //     //OUTPUT
-//     if (a%b==0)
-//         printf("%d divisible %d",a,b);
+//     total=a*b;
+//     if (total>=1000)
+//         printf("%d * %d >= 1000",a,b);
 //     else
-//         printf("\n%d NOT divisible %d",a,b);
+//         printf("\n%d * %d < 1000",a,b);
 //     return 0;
 // }
