@@ -36,6 +36,8 @@ int main()
         break;
 
     }
-    printf("\nYour bill\nType: %s \nCost: %d \nTotal %.2f",drink,quantity,total=cost*quantity*108/100);
+    printf("\n-------------------------");
+    printf("\n'\tYour bill\t'\n'\tType: %s\t'\n'\tCost: %d\t\t'\n'\tTotal %.2f\t'\n",drink,quantity,total=cost*quantity*108/100);
+    printf("-------------------------");
     return 0;
 }
