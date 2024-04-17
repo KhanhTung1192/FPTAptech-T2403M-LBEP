@@ -15,7 +15,7 @@
 //             printf("\nYour character is Lowercase");
 //         else
 //             printf("\nAgain plz");
-//         fflush(stdin);
+//         // fflush(stdin);
 //     }   while((letter<48 || letter>128) || (letter>57 && letter<65));
 //
 //     return 0;
