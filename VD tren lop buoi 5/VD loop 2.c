@@ -1,14 +1,29 @@
+// //
+// // Created by huydo on 4/17/2024.
+// //
+// #include "stdio.h"
 //
-// Created by huydo on 4/17/2024.
+// int main()
+// {
+//     int i;
+//     printf("demo for\n");
+//     for (i=0;i<10;++i)
+//     {
+//         printf("i=%d \t", i);
+//     }
+//     printf("\ndemo while\n");
+//     i=0;
+//     while(i<10)
+//     {
+//         printf("i=%d \t",i);
+//         i++;
+//     }
+//     printf("\ndemo do... while\n");
+//     i=0;
+//     do
+//     {
+//         printf("i=%d \t",i);
+//         i++;
 //
-#include "stdio.h"
-
-int main()
-{
-    int i, j , max;
-    printf("Please enter the maximum value \n");
-    printf("for which a table can be printed: ");
-    scanf("%d", &max);
-    for(i = 0 , j = max ; i <=max ; i++, j--)
-        printf("%d+ %d = %d\n", i, j, i + j);
-}
+//     } while (i<10);
+// }

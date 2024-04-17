@@ -1,15 +1,22 @@
-//
-// Created by huydo on 4/17/2024.
-//
-#include "stdio.h"
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
 
-void main()
+int main()
 {
-    int count = 1;
-    while( count <= 10)
+    int guess,randomNumber;
+    srand(time(0));
+    randomNumber = rand()%100+1;
+    do
     {
-        printf("\nIteration number %d\n",count);
-        count++;
-    }
-    printf("\n The loop is completed. \n");
+        printf("Guess the number (1-100): ");
+        scanf("%d",&guess);
+        if(guess>randomNumber)
+            printf("too high\n");
+        else if (guess<randomNumber)
+            printf("too low\n");
+        else
+            printf("congratulations!\n");
+    } while (guess!=randomNumber);
+    return 0;
 }
