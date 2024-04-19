@@ -20,7 +20,5 @@ int main()
         else
             printf("\nYour character is Special Symbol");
         // fflush(stdin);
-
-
     return 0;
 }
