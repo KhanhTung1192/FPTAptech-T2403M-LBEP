@@ -12,12 +12,12 @@ int main()
     }
     avg=total/a;
     min=max=arr[0];
-    for (int j=0;j<4;j++)
+    for (int j=1;j<5;j++)
     {
-        if(arr[j]<arr[j+1])
-            max=arr[j+1];
-        else if(arr[j]>arr[j+1])
-            min=arr[j+1];
+        if(arr[j]>max)
+            max=arr[j];
+        else if(arr[j]<min)
+            min=arr[j];
         else
             continue;
     }
